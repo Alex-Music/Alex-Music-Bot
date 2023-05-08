@@ -22,11 +22,17 @@
 }
 </code></pre>
 
-Also dont forget to edit <code>play.js</code>
+Also dont forget to edit <code>src/commands/music/play.js</code> & <code>src/commands/owner/aup.js</code>
+
 <pre><code>
 const clientID = "Spotify_ClientId";
 const secretKey = "Spotify_Secret";
 </code></pre>
+
+<pre><code>
+const web = new WebhookClient({ url: 'your_webhook_link' }); 
+</code></pre>
+
 <p dir="auto">Secure Should be False if Your are using local lavalink. If Your node is using ssl keep it to true.</p>
 <p dir="auto">To run the Bot just type <code>node .</code></p>
 <blockquote>
