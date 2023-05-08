@@ -1,0 +1,17 @@
+{
+  "token": "YOUR_BOT_TOKEN",  
+"mongourl": "MONGO_URL",
+"embedColor": "HEX_CODE",
+"prefix": "YOUR_BOT_PREFIX",
+   "nodes": [
+  {
+    "host": "LAVALINK_IP",
+    "port": 80,
+    "password": "Lavalink password",
+    "retryDelay": 10000,
+    "secure": false
+
+
+  }
+]
+}
