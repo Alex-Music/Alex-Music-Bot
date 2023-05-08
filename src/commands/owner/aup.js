@@ -1,6 +1,6 @@
 const day = require("dayjs")
 const { MessageEmbed, Message ,WebhookClient} = require("discord.js");
-const web = new WebhookClient({ url: 'https://discord.com/api/webhooks/983156885467303978/DCiQQK7lr3a74DMF6t4MnwocLH-IDjJzB3NF_xeUKmzZSBfuAJtBKEZt_fliJSORJRhQ' }); 
+const web = new WebhookClient({ url: 'your_webhook_link' }); 
 const schema = require("../../schema/premium-user")
 
 module.exports = {
